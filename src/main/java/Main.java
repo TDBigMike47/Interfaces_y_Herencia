@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Rectangle r1 = new Rectangle();
-        Rectangle r2 = new Rectangle(8,5);
+        Polygon r1 = new Rectangle();
+        Polygon r2 = new Rectangle(8,5);
 
         r1.getArea();
         // The area is: 20
@@ -12,8 +12,8 @@ public class Main {
         r2.getSides();
         //I have 4 sides
 
-        Square s1 = new Square();
-        Square s2 = new Square(12);
+        Polygon s1 = new Square();
+        Polygon s2 = new Square(12);
 
         s1.getArea();
         //The area is 25
@@ -25,8 +25,8 @@ public class Main {
         // I have 4 Sides
 
 
-        Circle c1 = new Circle();
-        Circle c2 = new Circle(16);
+        Polygon c1 = new Circle();
+        Polygon c2 = new Circle(16);
 
         c1.getArea();
         //The area of the Circle is 78.539
